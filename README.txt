@@ -1,1 +1,15 @@
-----------------------------------------------------------------------			   HHKPS2USBDriver	       Copyright (C) 2005-2007 NAKAHASHI Ichiro----------------------------------------------------------------------‚±‚ê‚ÍHappy Hacking Keyboardi‰‘ãC2j‚ðPS/2-USB•ÏŠ·ƒAƒ_ƒvƒ^‚ÅŽg‚¤‚½‚ß‚ÌMac OS X—pƒfƒoƒCƒXƒhƒ‰ƒCƒo‚Å‚·B‚½‚¾‚µC‚¿‚á‚ñ‚Æ“®‚­•ÏŠ·ƒAƒ_ƒvƒ^‚ÍŒÀ‚ç‚ê‚Ä‚¢‚Ü‚·BƒCƒ“ƒXƒg[ƒ‹•û–@‚È‚ÇCÚ‚µ‚­‚ÍŽŸ‚ÌwebƒTƒCƒg‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B  http://ichiro.nnip.org/HHKPS2USBDriver/“–ƒ\ƒtƒgƒEƒFƒA‚ÍGPL V2‚ÌŒ³‚ÅŽ©—R‚É—˜—p‚Å‚«‚Ü‚·BGPL‚É‚Â‚¢‚Ä‚Í•t‘®‚ÌLicense.rtf‚ÆGNU‚ÌwebƒTƒCƒgihttp://www.gnu.org/j‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
+----------------------------------------------------------------------
+			   HHKPS2USBDriver
+	       Copyright (C) 2005-2007 NAKAHASHI Ichiro
+----------------------------------------------------------------------
+
+ã“ã‚Œã¯Happy Hacking Keyboardï¼ˆåˆä»£ï¼Œ2ï¼‰ã‚’PS/2-USBå¤‰æ›ã‚¢ãƒ€ãƒ—ã‚¿ã§ä½¿ã†ãŸã‚
+ã®Mac OS Xç”¨ãƒ‡ãƒã‚¤ã‚¹ãƒ‰ãƒ©ã‚¤ãƒã§ã™ã€‚ãŸã ã—ï¼Œã¡ã‚ƒã‚“ã¨å‹•ãå¤‰æ›ã‚¢ãƒ€ãƒ—ã‚¿ã¯é™
+ã‚‰ã‚Œã¦ã„ã¾ã™ã€‚
+
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•ãªã©ï¼Œè©³ã—ãã¯æ¬¡ã®webã‚µã‚¤ãƒˆã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
+
+  http://ichiro.nnip.org/HHKPS2USBDriver/
+
+å½“ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã¯GPL V2ã®å…ƒã§è‡ªç”±ã«åˆ©ç”¨ã§ãã¾ã™ã€‚GPLã«ã¤ã„ã¦ã¯ä»˜å±žã®
+License.rtfã¨GNUã®webã‚µã‚¤ãƒˆï¼ˆhttp://www.gnu.org/ï¼‰ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
