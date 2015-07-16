@@ -162,7 +162,7 @@
 		5D493446088E0373006C2706 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: kyohei kadota (EYP65UUK47)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
@@ -174,11 +174,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				MODULE_NAME = org.nnip.driver.HHKPS2USBDriver;
-				MODULE_VERSION = 1.0.0d1;
+				MODULE_NAME = org.lufia.driver.HHKPS2USBDriver;
+				MODULE_VERSION = 1.0.1;
 				PREBINDING = NO;
 				PRODUCT_NAME = HHKPS2USBDriver;
-				SDKROOT = macosx;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = kext;
 				ZERO_LINK = YES;
 			};
@@ -187,7 +187,7 @@
 		5D493447088E0373006C2706 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: kyohei kadota (EYP65UUK47)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
@@ -197,11 +197,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				MODULE_NAME = org.nnip.driver.HHKPS2USBDriver;
-				MODULE_VERSION = 1.0.0d1;
+				MODULE_NAME = org.lufia.driver.HHKPS2USBDriver;
+				MODULE_VERSION = 1.0.1;
 				PREBINDING = NO;
 				PRODUCT_NAME = HHKPS2USBDriver;
-				SDKROOT = macosx;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = kext;
 				ZERO_LINK = NO;
 			};
@@ -210,7 +210,7 @@
 		5D493448088E0373006C2706 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: kyohei kadota (EYP65UUK47)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -218,11 +218,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				MODULE_NAME = org.nnip.driver.HHKPS2USBDriver;
-				MODULE_VERSION = 1.0.0d1;
+				MODULE_NAME = org.lufia.driver.HHKPS2USBDriver;
+				MODULE_VERSION = 1.0.1;
 				PREBINDING = NO;
 				PRODUCT_NAME = HHKPS2USBDriver;
-				SDKROOT = macosx;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Default;
@@ -230,21 +230,18 @@
 		5D49344A088E0373006C2706 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Development;
 		};
 		5D49344B088E0373006C2706 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 			};
 			name = Deployment;
 		};
 		5D49344C088E0373006C2706 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Default;
 		};
