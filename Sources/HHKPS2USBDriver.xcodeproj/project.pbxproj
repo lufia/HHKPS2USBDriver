@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		32D94FC60562CBF700B6AF17 /* HHKPS2USBDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* HHKPS2USBDriver.h */; };
 		32D94FCA0562CBF700B6AF17 /* HHKPS2USBDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* HHKPS2USBDriver.cpp */; settings = {ATTRIBUTES = (); }; };
+		998861AB21DF103E003F0E11 /* IOUSBLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 992C71D321CB578700434358 /* IOUSBLog.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998861AB21DF103E003F0E11 /* IOUSBLog.h in Headers */,
 				32D94FC60562CBF700B6AF17 /* HHKPS2USBDriver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
