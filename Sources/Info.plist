@@ -33,7 +33,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -52,7 +52,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -71,7 +71,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -90,7 +90,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -109,7 +109,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -128,7 +128,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -147,7 +147,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -166,7 +166,7 @@
 			<key>IOClass</key>
 			<string>HHKPS2USBDriver</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
@@ -181,10 +181,10 @@
 	<string>Copyright (C) 2005-2007 NAKAHASHI Ichiro</string>
 	<key>OSBundleLibraries</key>
 	<dict>
+		<key>com.apple.driver.usb.IOUSBHostHIDDevice</key>
+		<string>1.2</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>2.0</string>
-		<key>com.apple.iokit.IOUSBHIDDriver</key>
-		<string>705.4</string>
 		<key>com.apple.kpi.iokit</key>
 		<string>14.3</string>
 		<key>com.apple.kpi.libkern</key>

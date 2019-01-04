@@ -8,9 +8,9 @@
 #include "IOUSBLog.h"
 #include "HHKPS2USBDriver.h"
 
-#define super IOUSBHIDDriver
+#define super IOUSBHostHIDDevice
 
-OSDefineMetaClassAndStructors(HHKPS2USBDriver, IOUSBHIDDriver)
+OSDefineMetaClassAndStructors(HHKPS2USBDriver, IOUSBHostHIDDevice)
 
 
 #pragma mark ････････ IOHIDSystem Methods ･････････

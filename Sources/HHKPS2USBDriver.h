@@ -8,9 +8,9 @@
 #ifndef HHKPS2USBDRIVER_H
 #define HHKPS2USBDRIVER_H
 
-#include <IOKit/usb/IOUSBHIDDriver.h>
+#include <IOKit/usb/IOUSBHostHIDDevice.h>
 
-class HHKPS2USBDriver : public IOUSBHIDDriver
+class HHKPS2USBDriver : public IOUSBHostHIDDevice
 {
     OSDeclareDefaultStructors(HHKPS2USBDriver)
 
