@@ -5,7 +5,7 @@
 	Copyright (C) 2005 NAKAHASHI Ichiro
 */
 
-#include <IOKit/usb/IOUSBLog.h>
+#include "IOUSBLog.h"
 #include "HHKPS2USBDriver.h"
 
 #define super IOUSBHIDDriver

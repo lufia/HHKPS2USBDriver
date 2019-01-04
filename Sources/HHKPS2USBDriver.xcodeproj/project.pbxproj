@@ -17,6 +17,7 @@
 		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D94FD00562CBF700B6AF17 /* HHKPS2USBDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHKPS2USBDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+		992C71D321CB578700434358 /* IOUSBLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOUSBLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		247142CAFF3F8F9811CA285C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				992C71D321CB578700434358 /* IOUSBLog.h */,
 				1A224C3EFF42367911CA2CB7 /* HHKPS2USBDriver.h */,
 				1A224C3FFF42367911CA2CB7 /* HHKPS2USBDriver.cpp */,
 			);
