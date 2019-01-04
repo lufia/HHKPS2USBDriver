@@ -186,9 +186,9 @@
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>2.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>14.3</string>
+		<string>18.2</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>14.3</string>
+		<string>18.2</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Console</string>
