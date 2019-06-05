@@ -9,8 +9,8 @@ Yosemiteで使えるようにCodeSigningしたものです。
 
 ## Installation
 
-releaseからHHKPS2USBDriver.kext.zipをダウンロード。
-解凍して、
+releaseからHHKPS2USBDriver-(version).zipをダウンロード。
+解凍して、kextファイルを **/Library/Extensions** にコピーします。
 
     $ ls -F
     HHKPS2USBDriver.kext/
@@ -20,6 +20,10 @@ releaseからHHKPS2USBDriver.kext.zipをダウンロード。
 
 ## Bugs
 
+### キーボードが見つからない
+
+*ioclasscount* で `0` と出力される場合、
+
     $ ioclasscount HHKPS2USBDriver
     HHKPS2USBDriver = 0
 
@@ -27,10 +31,14 @@ releaseからHHKPS2USBDriver.kext.zipをダウンロード。
 
     $ ioreg -l
 
-からPS2toUSB的なものを探すか、
-このMacについて→システムレポート→ハードウェア→USBから、PS2toUSB的なものを探して、
+からPS2toUSBのようなデバイスを探すか、
+このMacについて→システムレポート→ハードウェア→USBから、PS2toUSBデバイスを探して、
 製造元ID(idVendor)と製品ID(idProduct)を、Info.plistに追加ください。
 システムレポートの場合は16進数表記になっているため、10進数に変換してから使います。
+
+### ドライバがロードできない
+
+*ioclasscount* で `<no such class>` と出力される場合、
 
     $ ioclasscount HHKPS2USBDriver
 	HHKPS2USBDriver = <no such class>
